@@ -7,4 +7,4 @@ FROM mcr.microsoft.com/azure-cli:${AZ_CLI_VERSION}
 
 COPY --from=tofu /usr/local/bin/tofu /usr/local/bin/tofu
 
-ENTRYPOINT ["sh"]
+CMD ["sh"]
